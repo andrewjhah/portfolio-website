@@ -7,7 +7,7 @@ import atmosphereVertexShader from './shaders/atmosphereVertex.glsl'
 import atmosphereFragmentShader from './shaders/atmosphereFragment.glsl'
 import { Float32BufferAttribute, MOUSE } from "three";
 
-function Space() {
+function Space({ onButtonClick }) {
     const containerRef = useRef();
 
   useEffect(() => {
@@ -68,6 +68,7 @@ function Space() {
     scene.add(stars)
 
     camera.position.z = 15;
+    camera.position.y = -1;
 
     const mouse = {
       x: 0,

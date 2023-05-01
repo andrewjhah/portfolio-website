@@ -34,9 +34,29 @@
     display: inline-block;
     width: 0;
     vertical-align: top;
-    animation: typing 1.5s steps(25, end) 1.5s 1 normal both;
+    animation: typing 2s steps(25, end) 1.5s 1 normal both;
   }
   
 .typing-text-second {
     animation-delay: 3.5s;
+  }
+
+button {
+    font-family: 'Trispace', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in-button {
+    animation: fadeIn 0.5s 6s forwards;
+    opacity: 0;
   }
