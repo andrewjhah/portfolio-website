@@ -38,7 +38,7 @@
   }
   
 .typing-text-second {
-    animation-delay: 3.5s;
+    animation-delay: 4s;
   }
 
 button {
@@ -57,6 +57,6 @@ button {
   }
   
   .fade-in-button {
-    animation: fadeIn 0.5s 6s forwards;
+    animation: fadeIn 0.5s 6.5s forwards;
     opacity: 0;
   }

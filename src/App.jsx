@@ -45,7 +45,7 @@ function App() {
               <button
                 onClick={handleButtonClick}
                 className="fade-in-button"
-                style={{ display: 'block', marginTop: '15px', backgroundColor: '#e6e6e6', color: 'black', fontSize: '16px', padding: '8px 16px', borderRadius: '4px', cursor: 'pointer',
+                style={{ display: 'block', marginTop: '15px', backgroundColor: '#e6e6e6', color: 'black', fontSize: '16px', padding: '8px 45px', borderRadius: '4px', cursor: 'pointer',
                 }}>
                 Enter
               </button>
