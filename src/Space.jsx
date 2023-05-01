@@ -29,7 +29,7 @@ function Space() {
     const sphere = new THREE.Mesh(new THREE.SphereGeometry(5, 50, 50), new THREE.ShaderMaterial({
       vertexShader, fragmentShader, uniforms: {
         globeTexture: {
-          value: new THREE.TextureLoader().load('./assets/earth_map.jpeg')
+          value: new THREE.TextureLoader().load('../public/assets/earth_map.jpeg')
         }
       }
     }))
