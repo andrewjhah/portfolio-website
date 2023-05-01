@@ -94,7 +94,7 @@ function Space() {
   }, []);
   
   return (
-    <div className="Space">
+    <div className="Space" style={{position: "relative"}}>
       <div ref={containerRef}></div>
     </div>
   );

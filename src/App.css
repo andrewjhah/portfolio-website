@@ -16,3 +16,27 @@
     width: 100vw;
     height: 100vh;
 }
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+.typing-text,
+.typing-text-second {
+    font-family: 'Trispace', sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    width: 0;
+    vertical-align: top;
+    animation: typing 1.5s steps(25, end) 1.5s 1 normal both;
+  }
+  
+.typing-text-second {
+    animation-delay: 3.5s;
+  }
