@@ -70,8 +70,8 @@ function Space() {
     camera.position.z = 15;
 
     const mouse = {
-      x: undefined,
-      y: undefined
+      x: 0,
+      y: 0
     }
     addEventListener('mousemove', () => {
       mouse.x = (event.clientX / innerWidth) * 2 - 1
